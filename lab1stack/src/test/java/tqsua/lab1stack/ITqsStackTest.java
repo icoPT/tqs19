@@ -1,14 +1,16 @@
 package tqsua.lab1stack;
 
 import java.util.NoSuchElementException;
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
+
 import org.junit.jupiter.api.DisplayName;
 
 /**
- *
  * @author ico
  */
 public class ITqsStackTest {
@@ -45,13 +47,13 @@ public class ITqsStackTest {
         assertEquals(3, instance.size());
         assertFalse(instance.isEmpty());
     }
-    
+
     @Test
     @DisplayName("If one pushes x then pops, the value popped is x")
     public void testPushAndPopStack() {
         String expected = "some value";
-        instance.push( expected );        
-        assertEquals( expected, instance.peek() );        
+        instance.push(expected);
+        assertEquals(expected, instance.peek());
     }
 
     @Test
@@ -63,7 +65,7 @@ public class ITqsStackTest {
     @Test
     @DisplayName("throws EmptyStackException when peeked")
     void throwsExceptionWhenPeeked() {
-        assertThrows(NoSuchElementException.class, instance::peek);
+        assertThrows( NoSuchElementException.class, instance::peek);
     }
 
 }
