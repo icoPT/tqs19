@@ -22,6 +22,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author ico
  */
 public class UserServiceTest {
+
     @Mock
     List<String> mmockedList;
 
