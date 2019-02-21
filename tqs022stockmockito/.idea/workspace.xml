@@ -4,9 +4,7 @@
     <list default="true" id="4b17c99b-fbfa-4d35-b5c0-afa8c8635033" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../lab1stack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1stack/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tqs021stockmarket/src/test/java/tqsua/tqs021stockmarket/PortfolioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tqs021stockmarket/src/test/java/tqsua/tqs021stockmarket/PortfolioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+            <state relative-caret-position="300">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -49,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/stock/PortfolioTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="149">
-              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,7 +123,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550762916889" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550764209941" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/NetBeansProjects/lab203geocoding" />
@@ -210,7 +208,7 @@
       <updated>1550708526982</updated>
       <workItem from="1550708531949" duration="1027000" />
       <workItem from="1550762125349" duration="81000" />
-      <workItem from="1550762531565" duration="384000" />
+      <workItem from="1550762531565" duration="730000" />
     </task>
     <servers />
   </component>
@@ -238,7 +236,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1492000" />
+    <option name="totallyTimeSpent" value="1838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="976" height="834" extended-state="6" />
@@ -252,7 +250,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,7 +303,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/stock/PortfolioTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -314,8 +312,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        <state relative-caret-position="300">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
         </state>
       </provider>
     </entry>
