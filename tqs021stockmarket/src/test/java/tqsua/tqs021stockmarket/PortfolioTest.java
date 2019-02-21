@@ -13,18 +13,17 @@ import org.junit.jupiter.api.Test;
 
 public class PortfolioTest extends EasyMockSupport {
     
-    // @Mock(MockType.STRICT)
-    @Mock(MockType.NICE)
+    /// @Mock
     private StockMarket marketMock;
 
-    @TestSubject
+    //// @TestSubject
     private Portfolio portfolio = new Portfolio();
 
     @BeforeEach
     public void setUp() {
 
         portfolio.setName("Portfolio 1");
-        marketMock = EasyMock.createMock(StockMarket.class);
+        marketMock = EasyMock.createStrictMock(StockMarket.class);
         portfolio.setStockMarket(marketMock);
     }
 
@@ -33,8 +32,8 @@ public class PortfolioTest extends EasyMockSupport {
 
         /* = Setup our mock object with the expected values */
         EasyMock.expect(marketMock.getPrice("EBAY")).andReturn(42.00);
-        //EasyMock.expect(marketMock.getPrice("MSFT")).andReturn(50.00);
-        //EasyMock.expect(marketMock.getPrice("ORAC")).andReturn(142.00);
+        // EasyMock.expect(marketMock.getPrice("MSFT")).andReturn(50.00);
+        // EasyMock.expect(marketMock.getPrice("ORAC")).andReturn(142.00);
         EasyMock.replay(marketMock);
 
         /* = Now start testing our portfolio */
