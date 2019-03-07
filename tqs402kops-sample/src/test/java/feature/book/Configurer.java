@@ -16,13 +16,10 @@ public class Configurer implements TypeRegistryConfigurer {
     @Override
     public void configureTypeRegistry(TypeRegistry registry) {
 
-
-        registry.defineParameterType(new ParameterType<>("date_iso_local_date_time", // 2011-12-03T10:15:30
+        registry.defineParameterType(new ParameterType<>("date_iso_local_date_time",
                 "\\d{4}-\\d{2}-\\d{2}", LocalDateTime.class,
-                (String s) -> LocalDateTime.parse(s.concat("T00:00:00"))));
-
+                (String s) -> LocalDateTime.parse( s.concat("T00:00:00"))));
     }
-
 
 
     public Locale locale() {
